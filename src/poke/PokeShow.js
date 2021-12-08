@@ -8,6 +8,7 @@ import Error from '../common/Error'
 
 import { getBasicInfo, getDetailedInfo } from '../lib/api'
 
+
 function PokeShow() {
   const { pokemonid } = useParams()
   const [pokemon, setPokemon] = React.useState(null)
@@ -60,7 +61,6 @@ function PokeShow() {
       notify.show('Nope, try again', 'custom', 500, { background: '#ffffff', color: '#000' }) 
     }
   }
-
   return (
 
     <section>
@@ -85,15 +85,14 @@ function PokeShow() {
             <div><h1 className="pokemonid title is-2">#{pokemon.id}</h1></div>
             <div><h3 className="pokemontype title is-3">{pokemonTypes.join(' ').toUpperCase()}</h3></div>
             <div><h4 className="pokemondetails title is-5">{pokedexEntry}</h4></div>  
-            <div className="luckybuttons is-touch">
-              <button className="shiny button is-large is-touch" onClick={decideShiny}>Try your shiny luck</button>
-
-              <div>
+            <div className="luckybuttons is-touch is-flex is-flex-direction-column">
+              <button className="shiny button is-large is-touch is-flex-grow-5" onClick={decideShiny}>Try your shiny luck</button>
+              <div className="is-flex is-flex-direction-row is-justify-content-space-between column is-fullwidth">
                 <Link to={`/pokemon/${idNumber - 1}`}>
-                  <button className="previous button is-medium is-touch">Previous</button>
+                  <button className="previous button is-large">Previous</button>
                 </Link>
                 <Link to={`/pokemon/${idNumber + 1}`}>
-                  <button className="next button is-medium is-touch">Next</button>
+                  <button className="next button is-large">Next</button>
                 </Link>
               </div>
             </div>
