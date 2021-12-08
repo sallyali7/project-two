@@ -18,3 +18,8 @@ To prevent the `failed-to-compile` issue for linter errors like `no-unsed-vars`,
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Home/Hero: Homepage with a navbar, search button and a logo
+pokeIndex: displays all the pokeCards
+pokeCard: displays a brief of each pokemon. (Name, image)
+pokeShow: displays pokeCards on an individual page (Name, Image, Abilities)
+PokeQuiz: displays a game of matching the right pokemons

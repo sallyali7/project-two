@@ -1,0 +1,153 @@
+.pokecenter{
+  font-family: fantasy;
+  font-size: 120px;
+  text-shadow: 10px 5px white;
+}
+.hero{
+  background-image: url(../attributes/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.card {
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+}
+.card-content {
+  margin-top: auto;
+  
+}
+.cardborder {
+  box-shadow: 10px 20px 10px 10px #888888;
+  padding: 30px;
+  margin: 30px;
+  
+}
+.searchbar {
+  margin: 20px auto 20px 10px;
+  padding: 5px;
+}
+
+.imagetext {
+  display: flex;
+  margin-top: 100px;
+  align-self: center;
+  justify-content: center;
+  padding: 30px;
+}
+.imagetext, .pokemon {
+  padding:  20px;
+}
+.imagetext, .pokemonid {
+  padding:  20px;
+  align-self: center;
+}
+.imagetext, .pokemontype {
+  padding: 20px;
+  align-self: center;
+  font-family: fantasy;
+}
+.imagetext, .pokemondetails {
+  padding: 20px;
+  align-self: center;
+  font-family: fantasy;
+}
+.luckybuttons {
+  margin: 30px;
+  padding: 20px;
+}
+.button.shiny.button{
+  margin-bottom: 5px;
+  background: radial-gradient(50% 123.47% at 50% 50%, #00FF94 0%, #FF00C7 100%), linear-gradient(121.28deg, #213100 0%, #FF0000 100%), linear-gradient(360deg, #0029FF 0%, #8FFF00 100%), linear-gradient(114.9deg, #00C6A2 0%, #6A45A8 100%), radial-gradient(100% 148.07% at 0% 0%, #FFFFFF 0%, #1DCD00 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+
+.button.next.button {
+  padding-right: 55px;
+  align-content: center;
+}
+.button.previous.button {
+  margin-right: 5px;
+}
+
+.normal {
+  background-color: rgba(168,167,122, 0.5)
+}
+
+.fire {
+  background-color: rgba(238,129,48, 0.5)
+}
+
+.water {
+  background-color: rgba(99,144,240, 0.5)
+}
+
+.grass {
+  background-color: rgba(122,199,76, 0.5)
+}
+
+.electric {
+  background-color: rgba(247,208,44, 0.5)
+}
+
+.ice {
+  background-color: rgba(150,217,214,0.5)
+}
+
+.fighting {
+  background-color: rgba(194,46,40, 0.5)
+}
+
+.poison {
+  background-color: rgba(163,62,161,0.5)
+}
+
+.ground {
+  background-color: rgba(226,191,101, 0.5)
+}
+
+.flying {
+  background-color: rgba(169,143,243, 0.5)
+}
+
+.psychic {
+  background-color: rgba(249,85,135,0.5)
+}
+
+.bug {
+  background-color: rgba(166,185,26, 0.5)
+}
+
+.rock {
+  background-color:  rgba(182,161,54,0.5)
+
+}
+
+.ghost {
+  background-color: rgba(15,87,151, 0.5)
+}
+
+.dark {
+  background-color: rgab(112,87,70, 0.5)
+}
+
+.dragon {
+  background-color: rgba(111,53,252, 0.5)
+}
+
+.steel {
+  background-color: rgba(183,183,206,0.5)
+}
+
+.fairy {
+  background-color: rgba(214,133,173,0.5)
+}
+
+
+$grey-darker: #000000;
+
+
+
+@import '~bulma/bulma.sass';
