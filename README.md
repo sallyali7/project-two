@@ -1,12 +1,12 @@
 # Poke Center #
 
-## General Assembly SEI | Project Two | HTML/CSS/JavaScript/Bulma/React | Pair | 48 Hours ##
+## General Assembly SEI | Project Two | HTML / CSS / JavaScript / Bulma / React | Pair | 48 Hours ##
 
 Link to game: https://pokemoncenter.netlify.app/
 
 ### Overview ###
 
-Poke Center is a web app that displays all original pokemons and their details extracted from a public API. User can select a pokemon to read all about it and see what it levels up to. There's also a special feature where a player can click a shiny button to try to get a shiny pokemon to appear instead of the original image displayed.
+Poke Center is a web app that displays all original pokemons and their details extracted from a public API. A user can select a pokemon to read all about it and see what it levels up to. There's also a special feature where a player can click a shiny button to try to get a shiny pokemon to appear instead of the original image displayed. This App was developed by [Mike Salter](https://github.com/Msalter91)
 
 ## Technologies Used ##
 
@@ -25,7 +25,7 @@ We created a wireframe for what we wanted to do, then proceeded to create routes
 
 ## Process ##
 
-We did not have a shared repository for this project, we mostly coded together via zoom and VS live share then sent over pieces of codes that we worked on individually to each other. 
+We did not have a shared repository for this project, we mostly coded together via Zoom and VS Live Share then sent over pieces of codes that we worked on individually to each other. 
 
 The Poke-API contains a vast amount of data, often nested several layers deep. For the index page we only needed the name and the image. However, the image link is not directly available from the GET endpoint for all Pokémon. So, we had to create a workaround that used data from the available data to pull an image from a separate Pokémon image hosting site. 
 
@@ -104,11 +104,11 @@ Lastly, fetching our language of choice which in our case is English.
 
 ## Wins ##
 
-A great project to excercise dealing with nested data and doing it in a pair. Though the API we chose was more challenging than we anticpated it gave us insightful practice on making multiple axios requests and fetching the correct data. The styling and theme of the project was also a win, my son loves to play with it.
+A great project to exercise dealing with nested data and doing it in a pair. Though the API we chose was more challenging than we anticipated it gave us insightful practice on making multiple axios requests and fetching the correct data. The styling and theme of the project was also a win, my son loves to play with it.
 
 ## Key Learnings ##
 
-• Finding Public APIs and understanding accessability 
+• Finding Public APIs and understanding accessibility 
 • Fetching data from nested APIs
 • the Shiny feature
 
