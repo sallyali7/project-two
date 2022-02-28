@@ -6,7 +6,7 @@ Link to game: https://pokemoncenter.netlify.app/
 
 ### Overview ###
 
-Poke Center is a web app that displays all original pokemons and their details extracted from a public API. A user can select a pokemon to read all about it and see what it levels up to. There's also a special feature where a player can click a shiny button to try to get a shiny pokemon to appear instead of the original image displayed. This App was developed by [Mike Salter](https://github.com/Msalter91)
+Poke Center is a web app that displays all original pokemons and their details extracted from a public API. A user can select a pokemon to read all about it and see what it levels up to. There's also a special feature where a player can click a shiny button to try to get a shiny pokemon to appear instead of the original image displayed. This App was developed by [Mike Salter](https://github.com/Msalter91) and I. 
 
 ## Technologies Used ##
 
